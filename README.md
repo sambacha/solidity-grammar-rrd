@@ -1,5 +1,6 @@
 # Solidity ANTLR4 RailRoad Diagrams (RRD)
 
+[npm solidity-rrd-grammar](https://www.npmjs.com/package/solidity-railroad-grammar)
 
 ## Overview 
 
