@@ -2,18 +2,27 @@
   "name": "solidity-railroad-grammar",
   "version": "1.0.0",
   "description": "Solidity Grammar Railroad diagrams from the ANTLR4 ",
-  "main": "index.html",
+  "main": "index.js",
+  "files": [
+    "solidity.ebnf",
+    "solidity.rrd.ebnf"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cli": "./cli",
+    "generate": "./cli --title \"Solidity RRD\" solidity.rrd.ebnf -o index.html",
+    "format": "./cli --write-style solidity.rrd.ebnf --no-target"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sambacha/solidity-grammar-rrd.git"
   },
   "author": "sam bacha",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sambacha/solidity-grammar-rrd/issues"
   },
-  "homepage": "https://github.com/sambacha/solidity-grammar-rrd#readme"
+  "homepage": "https://github.com/sambacha/solidity-grammar-rrd#readme",
+  "dependencies": {
+    "ebnf2railroad": "^1.12.0"
+  }
 }
