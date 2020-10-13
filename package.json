@@ -1,6 +1,6 @@
 {
   "name": "solidity-railroad-grammar",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Solidity Grammar Railroad diagrams from the ANTLR4 ",
   "main": "index.js",
   "files": [
