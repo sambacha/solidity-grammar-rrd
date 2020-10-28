@@ -30,7 +30,15 @@ version: 2020/10/28
 ## Solidity
 
 <!-- .element style="margin-top:50px"-->
-Historically Ethereum supports several language to write smart contract : **Serpent** (Python-like), **LLL** (Lisp-like), **Mutan** (Go-based), **Viper** (a strongly-typed Python-derived language) and **Solidity** (Javascript-like). 
+Historically Ethereum has supported several languages to write smart contracts, notably:
+
+**Serpent** (Python-like)
+**LLL** (Lisp-like)
+**Mutan** (Go-based)
+**Viper** (a strongly-typed Python-derived language)
+**Solidity** (Javascript-like).
+
+> Vyper and Solidity are the only languages left 
 
 **Solidity** is the incontested leader so far, as all the others got deprecated expect Viper, which is still under development.
 
