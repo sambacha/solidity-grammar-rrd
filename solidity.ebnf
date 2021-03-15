@@ -398,6 +398,8 @@ ReservedKeyword
            | 'switch'
            | 'try'
            | 'typeof'
+           | 'abstract'
+           | 'override'
 Identifier
          ::= IdentifierStart IdentifierPart*
 IdentifierStart
