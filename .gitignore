@@ -1,7 +1,4 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/node,emacs,macos,java
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,emacs,macos,java
-
+# gitignore
 ### Emacs ###
 # -*- mode: gitignore; -*-
 *~
@@ -213,5 +210,3 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
-# End of https://www.toptal.com/developers/gitignore/api/node,emacs,macos,java
